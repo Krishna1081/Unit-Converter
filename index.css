@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+h1{
+    color: white;
+    font-weight: 800;
+}
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6943FF;
+    padding: 20px;
+}
+
+#input-el{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    width:120px;
+    height: 120px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 58px;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#convert-btn{
+    background: #FFFFFF;
+    border: 1px solid #6943FF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 5px 20px;
+}
+#calculation-section{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversion-box{
+    background-color: #273549;
+    color: #CCC1FF;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.paragraph-set{
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
